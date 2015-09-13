@@ -16,6 +16,20 @@ Yuyin Wang (yw6378)
 
 Chigozi Yejekwe (ccy239)
 
+###Comments
+**Graph 1** Deleted "where sex is not null" from database retrival request, deleted facet characteristic from 1st graph in Titanic Analysis
+
+**Graph 2** Deleted facet characteristic from 1st graph in Titanic Analysis
+
+**Graph 3** Deleted facet characteristic and changed colour = SEX to colour = factor(SURVIVED) from 2nd graph in Titanic Analysis
+
+**Graph 4** Essentially the same as 2nd graph in Titanic Analysis
+
+**Graph 5** Changed "where sex is not null" to "where AGE <= 10" from 2nd graph in Titanic Analysis
+
+**Graph 6** For this graph, first we facet wrapped the data by class. Next, the x axis was set to the "Embarked" variable and the y axis was set to "PARCH"variable, with the y variable further modified to turn the categorical values into a numeric factor for R to graph it. Finally, I set R to color the graph based on the Embarked variable's categories. Once the proper labels were added, the graph was fully finished.
+
+
 ```{r}
 source("../00 Doc/TitanicAnalysisCompilation.R", echo = TRUE)
 ```
