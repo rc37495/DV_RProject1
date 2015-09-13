@@ -1,0 +1,23 @@
+---
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K64m",
+      "-RTS"
+    ]
+---
+###Project 1
+
+**Group Members:**
+
+Raymundo Cortez (rc37495)
+
+Yuyin Wang (yw6378)
+
+Chigozi Yejekwe (ccy239)
+
+```{r}
+source("../00 Doc/TitanicAnalysisCompilation.R", echo = TRUE)
+```
+
+
